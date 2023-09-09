@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cathy-dev/static/css/main.03c22dfb.css",
+    "main.css": "/cathy-dev/static/css/main.fd574550.css",
     "main.js": "/cathy-dev/static/js/main.072face0.js",
     "static/js/787.9e71acad.chunk.js": "/cathy-dev/static/js/787.9e71acad.chunk.js",
     "index.html": "/cathy-dev/index.html",
-    "main.03c22dfb.css.map": "/cathy-dev/static/css/main.03c22dfb.css.map",
+    "main.fd574550.css.map": "/cathy-dev/static/css/main.fd574550.css.map",
     "main.072face0.js.map": "/cathy-dev/static/js/main.072face0.js.map",
     "787.9e71acad.chunk.js.map": "/cathy-dev/static/js/787.9e71acad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03c22dfb.css",
+    "static/css/main.fd574550.css",
     "static/js/main.072face0.js"
   ]
 }
