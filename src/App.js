@@ -16,6 +16,9 @@ const [currentActive, setCurrentActive] = useState(0);
 const titleArray = ['About Me', 'React', 'Angular', 'Courses', 'iOS', 'AR'];
 
 const toggleActive = (index) => {
+  if(currentActive == index){
+    return;
+  }
   const newArray = [...isActive];
   newArray[index] = !newArray[index];
   newArray[currentActive] = false;
@@ -29,7 +32,7 @@ const toggleActive = (index) => {
 
           {titleArray.map((title, index) => {
             return (
-              <li key={index}>
+              <li key={index} className='nav-button'>
                 <span className={isActive[index] ? 'active' : ''} onClick={() => toggleActive(index)}>{title}</span>
               </li>
             );
@@ -38,20 +41,12 @@ const toggleActive = (index) => {
         </ul>
       </div>
       <div className="content">
-      <div>
         {isActive[0] && <AboutMe/>}
         {isActive[1] && <ReactProjects/>}
         {isActive[2] && <AngularProjects/>}
         {isActive[3] && <Courses/>}
         {isActive[4] && <IOS/>}
         {isActive[5] && <AR/>}
-
-        
-
-
-
-      </div>
-     
       </div>
     </div>
   );

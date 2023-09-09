@@ -8,7 +8,16 @@ const AngularProjects = () => {
       <div>
         <h2>Cat Facts</h2>    
         <p>A website to display Cat Facts, sign up for a Cat Facts Newsletter and play a 'Raining Cats' Mini Game.</p>     
-        <img src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/cat-facts_C7-dFO2HZ.png" alt="Cat Facts" />
+        <img
+          src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/cat-facts_C7-dFO2HZ.png"
+          alt="Cat Facts"
+          srcset="
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-330/cat-facts_C7-dFO2HZ.png 330w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/cat-facts_C7-dFO2HZ.png 700w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-1000/cat-facts_C7-dFO2HZ.png 950w
+          "
+          sizes="(max-width: 950px) 330px, 700px"
+        />
       </div>
       <a href="https://github.com/cathywalker/cat-facts" target="_blank">GitHub Repo</a>
     </div>

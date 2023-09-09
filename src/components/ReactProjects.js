@@ -8,13 +8,29 @@ const ReactProjects = () => {
       <div>
         <h2>AirBnB Clone</h2>
         <p>I saw the CEO of the space management web app firm I wanted to work for speak and heard him say his favourite website was Airbnb for UI and UX. So to impress him and show him I could do the job I built a clone of it. That is what convinced him to hire me:</p>
-        <img src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/search_BdsV2LxUo.png" alt="AirBnB Clone" />
+        <img src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/search_BdsV2LxUo.png" alt="AirBnB Clone"
+          srcset="
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-330/search_BdsV2LxUo.png 330w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/search_BdsV2LxUo.png 700w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-1000/search_BdsV2LxUo.png 950w
+          "
+          sizes="(max-width: 950px) 330px, 700px"
+        />
         <a href="https://github.com/cathywalker/airbnb-clone-main" target="_blank">GitHub Repo</a>
       </div>
       <div>
         <h2>Fruit & Veg Kids App</h2>
         <p>To create a drag and drop component library for my toolkit I made this fruit and Veg App for kids. Drag and Drop an image to find out if it's a Fruit or Vegetable</p>
-        <img src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/fruitandvegdragdrop_yHxWJ1ad5.png" alt="Fruit and Veg Info" />
+        <img
+          src="https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/fruitandvegdragdrop_yHxWJ1ad5.png"
+          alt="Fruit and Veg Info"
+          srcset="
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-330/fruitandvegdragdrop_yHxWJ1ad5.png 330w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-700/fruitandvegdragdrop_yHxWJ1ad5.png 700w,
+            https://ik.imagekit.io/dgmfafxequ/Dev/tr:w-1000/fruitandvegdragdrop_yHxWJ1ad5.png 950w
+          "
+          sizes="(max-width: 950px) 330px, 700px"
+        />
         <a href="https://github.com/cathywalker/fruit-and-veg-drag-and-drop" target="_blank">GitHub Repo</a>
       </div>
     </div>

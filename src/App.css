@@ -8,12 +8,30 @@
   color: #fff;
   flex: 0 0 auto;
   padding: 20px;
-  width: 186px; /* Adjust the width as needed */
+  width: 186px; 
 }
 
 .content {
-  flex-grow: 1;
   background-color: #fff;
   border: 2px solid orange;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .navigation {
+    width: auto;
+    flex-grow: 1;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+
+  .content{
+    width: auto;
+  }
 }
